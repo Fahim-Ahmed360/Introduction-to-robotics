@@ -1,0 +1,16 @@
+const int pins[] = {6, 4, 5}; // Red, Green, Blue পিন এক লাইনে
+
+void setup() {
+  for (int i = 0; i < 3; i++) pinMode(pins[i], OUTPUT); // এক লাইনে সব পিন আউটপুট
+}
+
+void loop() {
+  only_rgb();
+}
+
+void only_rgb() {
+  for (int i = 0; i < 3; i++) {
+    digitalWrite(pins[i], HIGH); delay(500);
+    digitalWrite(pins[i], LOW);  delay(500); // নীল লাইটের পরেও সমান গ্যাপ থাকবে
+  }
+}
