@@ -1,5 +1,6 @@
 
 // Force Sensor Test:
+// Circuit Diagram: Diagram 03 in readme file
 
 int sensor = A0;
 int red = 9, blue = 8,green = 7;
