@@ -1,3 +1,5 @@
+// Circuit Diagram: Diagram 01 in readme file
+
 const int pins[] = {6, 4, 5}; // Red, Green, Blue পিন এক লাইনে
 
 void setup() {
