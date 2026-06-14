@@ -1,3 +1,4 @@
+// Circuit Diagram: Diagram 01 in readme file
 
 const int red = 6, green = 4, blue = 5;
 void setup()
