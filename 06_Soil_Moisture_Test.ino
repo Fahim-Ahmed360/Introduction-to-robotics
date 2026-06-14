@@ -1,6 +1,6 @@
 
 // Soil Moisture Test
-// circuit diagram no in readme file.
+// Circuit Diagram: Diagram 02 in readme file
 
 const int red = 8, green = 9, blue = 10;
 int moisture;
